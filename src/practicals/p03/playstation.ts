@@ -11,7 +11,7 @@ export class Playstation extends Product {
   }
 
   getProfile(): string{
-    return `${this.name} (Gen ${this.generation})`;
+    return `${this.name} (gen ${this.generation})`;
   }
 
   getDiscountPrice(): number {
